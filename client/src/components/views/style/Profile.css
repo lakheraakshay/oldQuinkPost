@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Josefin+Sans:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap");
+
+.profilepage {
+  width: 98vw;
+  background-color: white;
+  height: 100vh;
+  border-radius: 23px;
+  position: absolute;
+  left: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+::-webkit-scrollbar {
+  width: 0px; 
+  background: transparent;
+}
+.section-1 {
+  width: 66%;
+  height: 46vh;
+  border-radius: 24px;
+  margin: 12px auto;
+  display: flex;
+  flex-direction: row;
+}
+.section-1-1 {
+  width: 40%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.section-1-1 > img {
+  min-width: 80%;
+  min-height: 80%;
+  max-width: 80%;
+  max-height: 80%;
+  border-radius: 18%;
+}
+.section-1-1-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4%;
+}
+.image-upload-div {
+  border: 1px solid black;
+}
+.section-1-2 {
+  width: 70%;
+  border-radius: 24px;
+  margin: 0px auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.section-1-2-1 {
+  font-size: 38px;
+  margin: 12px 64px;
+  font-family: "Cabin", sans-serif;
+}
+.section-1-2-2 {
+  font-size: 30px;
+  margin: 12px 64px;
+  font-family: "Cabin", sans-serif;
+}
+.section-2 {
+  border: 1px solid gray;
+  border-radius: 24px;
+  height: 46vh;
+  width: 92%;
+  margin: 12px auto;
+  padding: 26px;
+  overflow-y: scroll;
+  max-width: 100%;
+}
+.section-2-1 {
+  font-size: 28px;
+  font-family: "Cabin", sans-serif;
+}
+.section-2-2 {
+  font-size: 19px;
+  margin: 14px auto;
+  font-family: "Nunito", sans-serif;
+}
+
+.profile-home {
+  position: absolute;
+  top: 3px;
+  right: 2px;
+  background-color: rgba(0, 0, 0, 0.164);
+  padding: 12px;
+  border-radius: 27px;
+  color: black;
+}
+
+.profile-bookmark {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.164);
+  padding: 12px;
+  width: 150px;
+  border-radius: 27px;
+  color: black;
+  margin: auto;
+  text-decoration: none;
+  color: black;
+}
+
+.styles_Editext__buttons_after_aligned__1nlcG {
+  margin-left: 15px !important;
+}
+@media screen and (max-width: 1455px) {
+  .section-1 {
+    width: 100%;
+  }
+  .section-1-1 {
+    width: 50%;
+  }
+  .section-1-1 > img {
+    min-width: 80%;
+    min-height: 80%;
+    max-width: 80%;
+    max-height: auto;
+    border-radius: 18%;
+  }
+}
+@media screen and (max-width: 744px) {
+  .profilepage {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+  .profile-bookmark {
+    top: 46%;
+  }
+  .section-1 {
+    height: auto;
+    flex-direction: column;
+  }
+  .section-1-1 {
+    height: 40vh;
+    width: 86%;
+  }
+  .section-1-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-1-2-2 {
+    font-size: 25px;
+  }
+}

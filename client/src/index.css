@@ -1,0 +1,52 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+ 
+body {
+  background: #0035845e;
+  --component-color: #50b7f5;
+  --component-background: linear-gradient(#7F7FD5, #86A8E7);
+}
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: calc(80vh - 80px) !important;
+}
+
+input.error {
+  border-color: red;
+}
+
+.input-feedback {
+  color: red;
+  
+}
+
+.bx-crm-widget-form-config-sidebar-logo-text, .bx-crm-widget-form-config-sidebar-logo-bx, .bx-crm-widget-form-config-sidebar-logo-24, .bx-livechat-logo-name {
+  color: white !important;
+}
+
+.bx-livechat-logo-en .bx-livechat-logo-icon {
+  display: none !important;
+  background-color: white !important;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+} 
+
+@media (max-width: 900px) {
+  .b24-widget-button-position-bottom-right {
+    right: 5px !important;
+    bottom: 5px !important;
+}
+}

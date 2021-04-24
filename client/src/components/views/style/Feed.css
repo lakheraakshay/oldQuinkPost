@@ -1,0 +1,45 @@
+.feed {
+  height: 89vh;
+  width: 45vw;
+  position: absolute;
+  top: 82px;
+  left: 400px;
+  overflow-y: scroll;
+}
+.feed::-webkit-scrollbar {
+  display: none;
+}
+
+.feed {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.producttimestamp {
+  position: absolute;
+  margin: auto;
+  right: 6%;
+  font-size: small;
+  line-height: 2;
+  color: gray;
+}
+
+@media screen and (min-width: 1565px) {
+  .feed {
+    left: 24vw;
+  }
+}
+@media screen and (max-width: 1455px) {
+  .feed {
+    width: 75vw;
+    position: absolute;
+    left: 12.5vw;
+  }
+}
+@media screen and (max-width: 555px) {
+  .feed {
+    width: 98vw;
+    position: absolute;
+    left: 1vw;
+  }
+}

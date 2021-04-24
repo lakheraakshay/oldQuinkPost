@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.body-challenge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #149ed34a;
+}
+
+.container-challenge {
+    padding-top: 30px;
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-challenge .card-challenge {
+    position: relative;
+    max-width: 300px;
+    height: 105px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.container-challenge .card-challenge:hover {
+    height: 385px;
+}
+
+.container-challenge .card-challenge .imgBx {
+    position: relative;
+    width: 260px;
+    height: 160px;
+    top: -60px;
+    left: 20px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container-challenge .card-challenge .imgBx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.container-challenge .card-challenge .content-challenge{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.container-challenge .card-challenge:hover .content-challenge{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -55px;
+    transition-delay: 0.3s;
+}
+
+
+@media (max-width : 424px) {
+    .imgBx {
+        margin: 15px;
+        left: 0px !important;
+    }
+}

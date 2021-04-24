@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.createpost {
+  width: 98vw;
+  height: 100vh;
+  position: absolute;
+  left: 1vw;
+  background-color: rgb(170, 170, 170);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+  border-radius: 12px;
+}
+.createpost-header {
+  font-size: 44px;
+  background-color: rgb(202, 202, 202);
+  margin: 12px;
+  padding: 20px 28px;
+  border-radius: 18px;
+}
+.createpost-home {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  background-color: rgba(0, 0, 0, 0.164);
+  padding: 12px;
+  border-radius: 27px;
+  color: black;
+}
+.form-inner {
+  display: flex;
+  flex-direction: column;
+}
+.label-newpost {
+  font-family: "Rubik", sans-serif;
+  font-size: 23px;
+  padding: 12px;
+}
+.textarea {
+  width: 60vw;
+  border-radius: 34px;
+  background-color: rgb(228, 228, 228);
+  outline: none;
+  padding: 16px;
+  font-size: 23px;
+}
+.coverbutton {
+  width: 60%;
+  margin: 8px auto;
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 16px;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+}
+.newpostbutton {
+  margin: 12px 0px;
+  padding: 12px;
+  border-radius: 16px;
+  font-size: 23px;
+
+  font-family: "Rubik", sans-serif;
+}
+.select-type {
+  margin: 24px auto;
+  display: block;
+  width: 40%;
+  border-radius: 23px;
+  font-size: 22px;
+  outline: none;
+  padding: 12px;
+}
+.select-type > option {
+  padding: 8px;
+  border-radius: 16px;
+}
+.add-post-dropzone {
+  overflow-x: scroll;
+  max-width: 100vw;
+}
+@media screen and (max-width: 1455px) {
+  .textarea {
+    width: 85vw;
+  }
+}
+@media screen and (max-width: 555px) {
+  .textarea {
+    width: 85vw;
+  }
+  .createpost-home {
+    /* display: none; */
+    position: absolute;
+    right: 3.5vw;
+  }
+  .createpost-header {
+    align-self: flex-start;
+  }
+}

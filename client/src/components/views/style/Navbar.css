@@ -1,0 +1,361 @@
+
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Josefin+Sans:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+
+.navbar {
+  border: 2px solid black;
+  width: 99%;
+  display: flex;
+  background-color: var(--component-background);
+  border-radius: 12px;
+  margin: 7px;
+  box-shadow: 0.5px 1px 11px -3px rgb(50, 52, 53);
+}
+.label {
+  display: none;
+}
+#side {
+  display: none;
+}
+.brand {
+  font-family: "Cabin", sans-serif;
+  padding: 12px 92px;
+  font-size: 34px;
+  text-decoration: none;
+  color: black;
+}
+.homemainlink {
+  text-decoration: none;
+}
+.brand-post {
+  color: rgb(255, 255, 255);
+}
+.search {
+  width: 50%;
+  margin: 12px 45px;
+}
+.search input {
+  width: 96%;
+  padding: 13px;
+  border-radius: 34px;
+  border: none;
+  outline: none;
+}
+.mainLoginInput::-webkit-input-placeholder {
+  font-family: FontAwesome, "Numito";
+  font-size: 16px;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(0, 0%, 20%);
+}
+
+.mainLoginInput::-moz-placeholder {
+  font-family: FontAwesome;
+  font-family: "Nunito", sans-serif;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  display: inline-block !important;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(0, 0%, 20%);
+  font-size: 16px;
+}
+
+.mainLoginInput:-ms-input-placeholder {
+  font-family: FontAwesome;
+  font-family: "Nunito", sans-serif;
+  font-weight: normal;
+  overflow: visible;
+  vertical-align: top;
+  padding-left: 5px;
+  padding-top: 2px;
+  color: hsl(0, 0%, 20%);
+  font-size: 16px;
+}
+.profile {
+  width: 3%;
+  margin: 12px;
+}
+.originals {
+  border: 1px solid rgb(61, 61, 61);
+  height: 11vh;
+  width: 19.5%;
+  margin: 26px 34.5px;
+  border-radius: 36px;
+  background-color: rgba(241, 241, 241, 0.801);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 1px 10px -3px rgb(50, 52, 53);
+  font-family: "Cabin", sans-serif;
+  font-size: 36px;
+  text-decoration: none;
+  color: black;
+}
+.sidebar {
+  height: 52vh;
+  width: 20%;
+  margin: 26px 34px;
+  border-radius: 36px;
+  background-color: var(--component-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 3px 13px -3px rgb(50, 52, 53);
+}
+
+.li-p {
+  font-size: 1.4rem;
+  padding: 0.56em 1em !important;
+  padding-right: 3em !important;
+  border-radius: 22px;
+  width: 80% !important;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: rgba(207, 207, 207, 0.849);
+  transition: all 0.35s ease;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.2px 0.2px 4px -1px rgb(0, 0, 0);
+
+  list-style-type: none;
+  text-decoration: none;
+}
+.li-p:hover {
+  background-color: white;
+  box-shadow: 0.2px 0.2px 9px 0.2px black;
+}
+.li-checkbox-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 22px;
+}
+.li-checkbox {
+  font-size: 1.4rem;
+  padding: 0.56em 1em !important;
+  padding-right: 3em !important;
+  width: 87% !important;
+  margin: 12px auto;
+  border-bottom: 2px solid black;
+
+  font-family: "Josefin Sans", sans-serif;
+
+  transition: all 0.35s ease;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.li-checkbox:hover {
+  background-color: rgba(14, 14, 14, 0.253);
+}
+.li-checkbox:checked {
+  border: 2px solid black;
+}
+.li-checkbox > span {
+  margin: 0px 8px;
+}
+.link {
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+}
+.icons {
+  padding-right: 5px;
+}
+.modal {
+  outline: none;
+  height: 60vh;
+  width: 60vw;
+  margin: 12px auto;
+  background-color: rgb(131, 131, 131);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.35s ease-out;
+}
+.li-p-modal {
+  font-size: 1.4rem;
+  padding: 0.56em 1em !important;
+  padding-right: 3em !important;
+  border-radius: 22px;
+  width: 100%;
+  margin: 12px 0px;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: rgba(221, 221, 221, 0.281);
+  transition: all 0.35s ease;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0.2px 0.2px 4px -1px rgb(0, 0, 0);
+}
+.li-p-modal:hover {
+  background-color: white;
+  box-shadow: 0.2px 0.2px 9px 0.2px black;
+}
+.close {
+  display: block;
+  margin: 4px auto;
+}
+.close-icon {
+  margin: 12px 44%;
+}
+.close-icon:hover {
+  color: white;
+}
+.sideToggle {
+  display: none;
+}
+.modal1 {
+  outline: none;
+  height: 80vh;
+  width: 60vw;
+  margin: 12px auto;
+  background-color: rgb(131, 131, 131);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.35s ease-out;
+}
+@media screen and (min-width: 1565px) {
+}
+
+@media screen and (max-width: 1455px) {
+  .navbar {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .brand {
+    display: none;
+  }
+  .label {
+    display: inline;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+  .search {
+    width: 65%;
+    margin: 12px 12.5vw;
+  }
+  .profile {
+    position: absolute;
+    top: 10px;
+    right: 12.5vw;
+  }
+  .sidebar {
+    width: 60%;
+    margin: 42px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    display: none;
+  }
+  .sideToggle {
+    display: inline;
+    position: absolute;
+    top: 20px;
+    right: 4vw;
+    padding: 6px;
+    padding-top: 11px;
+    margin-left: 3vw;
+    border-radius: 34px;
+  }
+  .originals {
+    display: none;
+  }
+  .originals-modal {
+    width: 100%;
+    border: 1px solid rgb(61, 61, 61);
+    height: 11vh;
+    margin: 26px auto;
+    border-radius: 36px;
+    background-color: rgba(241, 241, 241, 0.801);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 1px 1px 10px -3px rgb(50, 52, 53);
+    font-family: "Cabin", sans-serif;
+    font-size: 36px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.35sec ease;
+  }
+  .originals-modal:hover {
+    background-color: white;
+  }
+  .modal {
+    height: 80vh;
+  }
+  .li-checkbox-container {
+    align-self: center;
+    width: 100%;
+  }
+  .li-p-checkbox {
+    margin: 8px auto !important;
+  }
+}
+@media screen and (max-width: 555px) {
+  .profile {
+    right: 20.5vw;
+  }
+  .search {
+    width: 50%;
+    margin: 12px 14vw;
+  }
+  .sideToggle {
+    display: inline;
+    position: absolute;
+    top: 20px;
+    right: 4vw;
+    padding: 6px;
+    padding-top: 11px;
+    margin-left: 3vw;
+    background-color: rgba(126, 125, 125, 0);
+    border: none;
+    border-radius: 34px;
+  }
+  .sidebar {
+    width: 80%;
+    display: none;
+  }
+  .modal {
+    width: 100vw;
+    overflow-y: scroll;
+  }
+  .modal1 {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 340px) {
+  .modal {
+    height: auto;
+    border-radius: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  .modal1 {
+    height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+  }
+}

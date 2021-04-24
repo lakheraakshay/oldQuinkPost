@@ -1,0 +1,101 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Athiti&family=Cabin:wght@700&family=Josefin+Sans:wght@400;500;600&display=swap");
+.sidebar-secondary {
+  position: absolute;
+  top: 105px;
+  left: 1130px;
+  height: 73vh;
+  width: 16%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  box-shadow: 1px 3px 13px -3px rgb(50, 52, 53);
+  background-color: var(--component-background);
+  border-radius: 36px;
+}
+.post-new {
+  cursor: pointer;
+  width: 61%;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  padding-left: 44px;
+  margin: 16px auto;
+  background-color: rgb(230, 230, 230);
+  border-radius: 34px;
+  font-size: 27px;
+  font-family: "Cabin", sans-serif;
+  font-weight: 700;
+  box-shadow: 0.2px 0.2px 8px -1px black;
+}
+.post-icon {
+  color: linear-gradient(45deg, blue, rgb(0, 247, 255));
+  padding: 0px 4px;
+}
+.link2 {
+  width: 100%;
+  color: black;
+  text-decoration: none;
+}
+.trend {
+  align-self: center;
+}
+.trend-1 {
+  cursor: pointer;
+  border-bottom: 2px solid black;
+  margin: 2px 4px;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 0px;
+  text-align: left;
+  transition: all 0.35sec ease-out;
+}
+.trend-1:hover {
+  border-bottom: 2px solid white;
+}
+.noti {
+  border-radius: 14px;
+  margin: 10px 18px;
+  padding: 4px 12px;
+  width: 80%;
+}
+.logout {
+  border: 2px solid black;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: auto !important;
+}
+
+.noti-item {
+  border-radius: 15px;
+  margin: 12px 7px;
+  padding: 4px 2px;
+  text-align: center;
+  font-family: "Athiti", sans-serif;
+  font-size: 18px;
+}
+.noti-item:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.logout:hover {
+  background-color: white;
+}
+@media screen and (min-width: 1565px) {
+  .sidebar-secondary {
+    left: 71vw;
+  }
+}
+@media screen and (max-width: 1455px) {
+  .sidebar-secondary {
+    display: none;
+  }
+}
+@media screen and (max-width: 555px) {
+}

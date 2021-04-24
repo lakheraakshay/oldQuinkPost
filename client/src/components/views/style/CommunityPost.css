@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.community-header {
+  border-bottom: 0.3px solid black;
+  padding: 14px 25px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 19px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.community-header-1 {
+  margin-right: 4px;
+}
+.community-header-2 {
+  margin-left: 12px;
+}
+.community-caption {
+  padding: 12px 24px;
+  padding-bottom: 3px;
+  font-family: "Quicksand", sans-serif;
+}
+.join-community {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.members {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(94, 94, 94);
+  padding: 6px 29px;
+  margin-bottom: 4px;
+}
+.members-no {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.community-home {
+  position: absolute;
+  top: 20px;
+  right: 46px;
+  background-color: rgba(0, 0, 0, 0.164);
+  padding: 12px;
+  border-radius: 27px;
+  color: black;
+}
+.community-readmore {
+  align-self: flex-end;
+  margin: 12px;
+  padding: 6px 24px;
+  cursor: pointer;
+  border-radius: 32px;
+  background-color: #005d9bc2;
+  font-family: "Ubuntu", sans-serif;
+  box-shadow: 0.2px 0.2px 5px 0.001px rgb(63, 63, 63);
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.navbar-community {
+  border: 2px solid black;
+  width: 99%;
+  display: flex;
+  background-color: var(--component-background);
+  border-radius: 12px;
+  margin: 7px;
+  box-shadow: 0.5px 1px 11px -3px rgb(50, 52, 53);
+  justify-content: space-between;
+}
+.brand-community {
+  font-family: "Cabin", sans-serif;
+  padding: 12px 92px;
+  font-size: 34px;
+  text-decoration: none;
+  color: black;
+}
+.brand-post-community {
+  color: rgb(255, 255, 255);
+}
+.community-back-button {
+  /* border: 2px solid black; */
+  margin: 9px 12px;
+  display: flex;
+  /* border-radius: 24px; */
+  /* height: 80%; */
+  font-family: "Roboto", sans-serif;
+}
+.community-back-button > button {
+  border: 1px solid black;
+  border-radius: 24px;
+  box-shadow: none;
+  padding: 0px 22px;
+  background-color: rgba(233, 233, 233, 0.76);
+  font-family: "Roboto", sans-serif;
+}
+@media screen and (max-width: 555px) {
+  .brand-community {
+    padding: 12px 22px;
+    font-size: 25px;
+  }
+  .community-back-button > button {
+    padding: 0px 16px;
+    font-size: 13px;
+  }
+}
+
+

@@ -1,0 +1,48 @@
+.infinite-container {
+    padding: 10px;
+    border-radius: 3%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+.ant-comment-avatar{
+    float: left;
+    padding: 10px;
+}
+
+.ant-comment-content-author {
+    padding-top: 10px;
+}
+
+.ant-comment-content-author-time {
+    float: right;
+}
+
+.ant-comment-content-detail {
+    margin-top: 7px;
+}
+
+.ant-form-inline{ 
+    margin: 2px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.ant-input-prefix {
+    vertical-align: middle;
+}
+
+.chatpage-input {
+    margin: 12px;
+    font-size: larger;
+    width: 75%;
+    padding: 0px 8px;
+    border-radius: 18px; 
+}
+
+.anticon-message {
+    vertical-align: middle;
+    font-size: 25px;
+}
